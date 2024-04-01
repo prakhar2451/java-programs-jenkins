@@ -8,5 +8,8 @@ public class Main {
         System.out.println(new Date());
         System.out.println("hello world!");
         System.out.println("This is for testing purpose.");
+
+        Student student = new Student();
+        student.Greet();
     }
 }
